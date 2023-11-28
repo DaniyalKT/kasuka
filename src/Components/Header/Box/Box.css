@@ -1,0 +1,36 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: ease-in-out 0.3s;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.box-container:hover {
+  border: 1px solid #ffc451;
+  color: #ffc451;
+}
+
+.icon img {
+  position: relative;
+  border-color: #ffc451 !important;
+}
+
+.text {
+  color: #fff;
+}
+.text:hover {
+  color: #ffc451;
+}
+
+@media screen and (max-width: 406px) {
+  .box-container {
+    padding: 10px 0;
+    width: 100%;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,49 @@
+.cta-container {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../public/cta-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  direction: rtl;
+}
+
+.cta-container h1{
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.cta-container p{
+    color: #fff;
+    margin: auto  4rem;
+    font-size: 14px;
+}
+
+.cta-container button{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.5rem 3rem;
+    margin-top: 1.5rem;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out ;
+    -webkit-transition: all 0.5s ease-in-out ;
+    -moz-transition: all 0.5s ease-in-out ;
+    -ms-transition: all 0.5s ease-in-out ;
+    -o-transition: all 0.5s ease-in-out ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cta-container button:hover{
+     color: #333;
+     background-color: #ffc451;
+     border: 2px solid #ffc451;
+  
+}

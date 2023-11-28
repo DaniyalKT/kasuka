@@ -1,0 +1,24 @@
+.client-component{
+    touch-action: pan-y;
+    overflow: hidden;
+    margin: 2rem 2rem 4rem 2rem ;
+}
+
+.slider-component img{
+    width: 150px;
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+}
+
+img:hover{
+    opacity: 1;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+@media screen and (max-width: 660px) {
+    .slider-component img{
+        width: 20vw;
+    }
+}

@@ -1,0 +1,41 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  gap: 2rem;
+  margin: 3rem 5rem;
+}
+
+.img-about{
+  width: 45%;
+}
+
+.img-about img {
+  width: 100%;
+}
+
+.description{
+  width: 55%;
+}
+
+.description h1 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1362px) {
+  .about-container {
+    flex-direction: column;
+    margin: 1rem 2rem;
+  }
+
+  .description{
+    width: 100%;
+  }
+  .img-about{
+    width: 100%;
+  }
+  
+}
