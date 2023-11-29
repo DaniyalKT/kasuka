@@ -1,0 +1,118 @@
+.count-container {
+  display: flex;
+  direction: rtl;
+  gap: 3rem;
+  margin: 7rem;
+}
+
+.img-section img {
+  width: 550px;
+  height: 600px;
+}
+
+.count-title {
+  margin-bottom: 2rem;
+}
+
+.count-title h2 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #151515;
+  line-height: 4rem;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+.count-title p {
+  text-align: justify;
+  color: #3b3b3b;
+}
+
+.count-box {
+  display: grid;
+  grid-template-areas:
+    "countOne countTwo"
+    "countThree countFour";
+}
+
+.count-1 {
+  grid-area: countOne;
+}
+.count-2 {
+  grid-area: countTwo;
+}
+.count-3 {
+  grid-area: countThree;
+}
+.count-4 {
+  grid-area: countFour;
+}
+
+.counts h1 > span {
+  font-size: 42px;
+  font-family: IranianSans, sans-serif;
+}
+
+.svg-icon {
+  width: 36px;
+  margin-left: 1rem;
+}
+
+.counts p {
+  color: #3b3b3b;
+  text-align: justify;
+  font-size: 10px;
+  margin: 0 0 0 50px;
+  padding: 15px 0 20px 0;
+}
+
+@media screen and (max-width: 1389px) {
+  .count-title h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1188px) {
+
+ 
+  .img-section img {
+    width: 100%;
+}
+
+  .count-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 688px) {
+    .count-box {
+        display: grid;
+        grid-template-areas:
+          "countOne "
+          "countTwo "
+          "countThree"
+          "countFour";
+      }
+  
+
+      .count-container {
+      
+        margin: 1rem;
+      }
+      
+  }
+
+  @media screen and (max-width: 447px) {
+    .count-title h2 {
+      font-size: 13px;
+    }
+    .img-section img {
+        width: 100%;
+        height: 340px;
+    }
+  }

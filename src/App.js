@@ -7,6 +7,7 @@ import Feature from "./Components/Features";
 import Services from "./Components/Services";
 import Cta from "./Components/Cta";
 import Project from "./Components/Projects";
+import Count from "./Components/Counts";
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
 
        <div className="project">
         <Project></Project>
+       </div>
+
+       <div className="count">
+         <Count></Count>
        </div>
     </div>
   );
