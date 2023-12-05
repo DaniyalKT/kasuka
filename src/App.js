@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./Components/Header";
 import About from "./Components/About";
@@ -8,6 +7,7 @@ import Services from "./Components/Services";
 import Cta from "./Components/Cta";
 import Project from "./Components/Projects";
 import Count from "./Components/Counts";
+import Testimonials from "./Components/Testimonials";
 
 function App() {
   return (
@@ -40,6 +40,10 @@ function App() {
 
        <div className="count">
          <Count></Count>
+       </div>
+
+       <div className="testimonials">
+        <Testimonials></Testimonials>
        </div>
     </div>
   );

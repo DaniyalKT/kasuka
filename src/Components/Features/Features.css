@@ -71,6 +71,8 @@
     .feature-container{
         display: flex;
         flex-direction: column;
+        gap: 0.5rem;
+        margin: 1rem;
     }
     .feature-title img{
         width: 120px;
