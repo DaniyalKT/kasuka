@@ -17,7 +17,7 @@
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .member-img {
@@ -33,7 +33,7 @@
 
 .social {
   position: absolute;
-  left: 92px;
+  left: 60px;
   right: 0;
   bottom: 30px;
   opacity: 0;
