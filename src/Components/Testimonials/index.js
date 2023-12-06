@@ -36,18 +36,21 @@ export default function Testimonials() {
 
   const [slide, setSlide] = useState(0);
   const nextSlide = () => {
- setSlide(slide === showSlides.length - 1 ? 0 :slide + 1)
-  }
-  const prevSlide = ()=>{
-setSlide(slide === 0 ? showSlides.length -1 : slide - 1)
-  }
+    setSlide(slide === showSlides.length - 1 ? 0 : slide + 1);
+  };
+  const prevSlide = () => {
+    setSlide(slide === 0 ? showSlides.length - 1 : slide - 1);
+  };
   return (
     <div className="tes-container">
-      <BsArrowLeftCircleFill className="arrow arrow-left" onClick={nextSlide}></BsArrowLeftCircleFill>
+      <BsArrowLeftCircleFill
+        className="arrow arrow-left"
+        onClick={nextSlide}
+      ></BsArrowLeftCircleFill>
 
       {showSlides.map((item, i) => {
         return (
-          <div className={slide === i ? 'slide' : 'slide slide-hidden'}>
+          <div className={slide === i ? "slide" : "slide slide-hidden"}>
             <img src={item.img} alt={item.name} className="img-tes" />
             <h3>{item.name}</h3>
             <h4>{item.title}</h4>
@@ -56,11 +59,22 @@ setSlide(slide === 0 ? showSlides.length -1 : slide - 1)
         );
       })}
 
-      <BsArrowRightCircleFill className="arrow arrow-right" onClick={prevSlide}></BsArrowRightCircleFill>
+      <BsArrowRightCircleFill
+        className="arrow arrow-right"
+        onClick={prevSlide}
+      ></BsArrowRightCircleFill>
 
       <span className="indicators">
         {showSlides.map((_, i) => {
-          return <button key={i} onClick={() => setSlide(i)} className={slide === i ? 'indicator' : 'indicator indicator-inactive'}></button>;
+          return (
+            <button
+              key={i}
+              onClick={() => setSlide(i)}
+              className={
+                slide === i ? "indicator" : "indicator indicator-inactive"
+              }
+            ></button>
+          );
         })}
       </span>
     </div>
