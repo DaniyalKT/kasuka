@@ -8,6 +8,7 @@ import Cta from "./Components/Cta";
 import Project from "./Components/Projects";
 import Count from "./Components/Counts";
 import Testimonials from "./Components/Testimonials";
+import Team from "./Components/Team";
 
 function App() {
   return (
@@ -44,6 +45,10 @@ function App() {
 
        <div className="testimonials">
         <Testimonials></Testimonials>
+       </div>
+
+       <div className="team">
+        <Team></Team>
        </div>
     </div>
   );
