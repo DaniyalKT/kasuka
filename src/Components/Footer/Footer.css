@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+.footer-up {
+  border-bottom: 1px solid #222;
+  background-color: #151515;
+  height: 200px;
+
+}
+.footer-bottom {
+  height: 120px;
+}
+
+.footer-bottom {
+  font-family: IranianSans, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+}
+.credits {
+  font-size: 13px;
+  padding-top: 10px;
+}
+.credits a {
+  color: #ffc451;
+  text-decoration: none;
+}
