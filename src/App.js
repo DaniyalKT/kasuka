@@ -9,13 +9,18 @@ import Project from "./Components/Projects";
 import Count from "./Components/Counts";
 import Testimonials from "./Components/Testimonials";
 import Team from "./Components/Team";
+import Contact from "./Components/Contact";
+import 'mapbox-gl/dist/mapbox-gl.css';
+import Footer from "./Components/Footer";
+
+
 
 function App() {
   return (
     <div className="container">
-      <div className="header-section">
+      <header className="header-section">
         <Header></Header>
-      </div>
+      </header>
       <div className="about">
         <About></About>
       </div>
@@ -50,6 +55,13 @@ function App() {
        <div className="team">
         <Team></Team>
        </div>
+
+       <div className="contact">
+        <Contact></Contact>
+       </div>
+       <footer className="footer">
+        <Footer></Footer>
+       </footer>
     </div>
   );
 }
