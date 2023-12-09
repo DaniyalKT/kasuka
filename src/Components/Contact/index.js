@@ -54,7 +54,7 @@ export default function Contact() {
             <img src="/contact/phone.svg" className="svg-contact" alt="" />
             <div className="infos">
               <h4>شماره تماس:</h4>
-              <p>09013313341</p>
+              <p>09013538679</p>
             </div>
           </div>
         </div>

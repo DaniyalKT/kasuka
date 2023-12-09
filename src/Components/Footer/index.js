@@ -20,7 +20,7 @@ export default function Footer() {
           </h3>
           <p>
             تهران، پیروزی
-            <strong>تلفن: 09013313341</strong>
+            <strong>تلفن: 09013538679</strong>
             <strong>ایمیل: ktdanial76@gmail.com</strong>
           </p>
           <div className="social-links">
