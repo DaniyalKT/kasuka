@@ -47,33 +47,7 @@ export default function Navbar() {
               تیم
             </a>
           </li>
-          <li className="dropdown">
-            <a href="#" className="link ">
-              لیست کشویی
-              <BsChevronDown className="arrow-dropmenuicon" />
-            </a>
-
-            <nav
-              className={
-                navbar ? "dropdown-menu active-drowdown" : "dropdown-menu"
-              }
-            >
-              <ul>
-                <li>
-                  <a href="#">لیست کشویی 1</a>
-                </li>
-                <li>
-                  <a href="#">لیست کشویی 2</a>
-                </li>
-                <li>
-                  <a href="#">لیست کشویی 3</a>
-                </li>
-                <li>
-                  <a href="#">لیست کشویی 4</a>
-                </li>
-              </ul>
-            </nav>
-          </li>
+      
           <li>
             <a href="#" className="link">
               تماس با ما
@@ -81,10 +55,7 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-      {/* 
-      <a href="#" className='open-nav'>
-        <img src={OpenSVG} alt="" />
-      </a> */}
+   
 
       <div className="logo">
         <img src="./logo.png" alt="logo" className="logo-img" />
@@ -125,11 +96,6 @@ export default function Navbar() {
           <li>
             <a href="#" className="link-mobile">
               تیم
-            </a>
-          </li>
-          <li>
-            <a href="#" className="link-mobile">
-              لیست کشویی
             </a>
           </li>
           <li>

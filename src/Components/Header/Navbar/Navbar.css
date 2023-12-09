@@ -128,6 +128,10 @@ li {
   transform: rotate(130deg);
   position: relative;
   top: 1px;
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
 }
 #toggle:checked + label span.line-mid{
   transform: rotate(45deg);
@@ -142,6 +146,10 @@ li {
 #toggle:checked +label span:last-child{
   transform: translateX(10px);
   opacity: 0;
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
 }
 
 
@@ -198,6 +206,10 @@ li {
   display: block;
 
 }
+
+
+
+
 
 @media screen and (max-width: 974px) {
   .link {
