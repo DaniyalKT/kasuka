@@ -20,6 +20,9 @@
   max-width: 300px;
 }
 
+.member-img{
+  position: relative;
+}
 
 
 .member-img img {

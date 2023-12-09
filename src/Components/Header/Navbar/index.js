@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+import { BsChevronDown } from "react-icons/bs";
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -46,10 +47,32 @@ export default function Navbar() {
               تیم
             </a>
           </li>
-          <li>
-            <a href="#" className="link">
+          <li className="dropdown">
+            <a href="#" className="link ">
               لیست کشویی
+              <BsChevronDown className="arrow-dropmenuicon" />
             </a>
+
+            <nav
+              className={
+                navbar ? "dropdown-menu active-drowdown" : "dropdown-menu"
+              }
+            >
+              <ul>
+                <li>
+                  <a href="#">لیست کشویی 1</a>
+                </li>
+                <li>
+                  <a href="#">لیست کشویی 2</a>
+                </li>
+                <li>
+                  <a href="#">لیست کشویی 3</a>
+                </li>
+                <li>
+                  <a href="#">لیست کشویی 4</a>
+                </li>
+              </ul>
+            </nav>
           </li>
           <li>
             <a href="#" className="link">
@@ -63,14 +86,11 @@ export default function Navbar() {
         <img src={OpenSVG} alt="" />
       </a> */}
 
-
-
       <div className="logo">
-      <img src="./logo.png" alt="logo" className="logo-img" />
+        <img src="./logo.png" alt="logo" className="logo-img" />
 
         <h1>KASUKA </h1>
       </div>
-
 
       <nav className="mobile">
         <input type="checkbox" id="toggle" hidden />
@@ -118,7 +138,6 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-
       </nav>
     </div>
   );
