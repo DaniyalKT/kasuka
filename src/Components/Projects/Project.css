@@ -3,33 +3,6 @@
   margin: 3rem 2rem;
 }
 
-.project-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 10px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-}
-.project-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #ffde9e;
-  margin: 4px 10px;
-}
-
-.project-title p {
-  margin: 0 0 25px 0;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #151515;
-  text-align: justify;
-}
 
 li {
   list-style-type: none;
@@ -181,10 +154,6 @@ li {
         max-width: 150px;
       }
 
-    .project-title p{
-        font-size: 5vw;
-    }
-    
 }
 
 @media screen and (max-width: 378px) {

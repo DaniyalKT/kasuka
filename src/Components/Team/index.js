@@ -1,6 +1,8 @@
 import React from "react";
 import { BsInstagram, BsLinkedin, BsTelegram, BsTwitter } from "react-icons/bs";
 import "./Team.css";
+import Title from "../../shared/Title";
+
 
 export default function Team() {
   const teamImages = [
@@ -28,10 +30,8 @@ export default function Team() {
 
   return (
     <div className="taem-container">
-      <div className="team-title">
-        <h2>تیم</h2>
-        <p>تیم ما را بررسی کنید </p>
-      </div>
+      <Title title="تیم"  description="تیم ما را بررسی کنید"/>
+
 
       <div className="team-section">
         {teamImages.map((item) => {

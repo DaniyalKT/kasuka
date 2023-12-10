@@ -1,40 +1,6 @@
 .contact-container {
   margin: 2.5rem;
-}
-
-/* title */
-
-.contact-title {
-  display: block;
   direction: rtl;
-}
-
-.contact-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 10px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-}
-.contact-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #ffde9e;
-  margin: 4px 10px;
-}
-
-.contact-title p {
-  margin: 0 0 25px 0;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #151515;
-  text-align: justify;
 }
 
 .contact-section {
@@ -213,11 +179,5 @@
       "title title"
       "message message"
       "btn btn";
-  }
-}
-
-@media screen and (max-width: 377px) {
-  .contact-title p {
-    font-size: 17px;
   }
 }

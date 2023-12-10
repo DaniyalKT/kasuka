@@ -1,13 +1,12 @@
 import React from "react";
 import "./Project.css";
+import Title from "../../shared/Title";
+
 
 export default function Project() {
   return (
     <div className="project-container">
-      <div className="project-title">
-        <h2>نمونه کار ها</h2>
-        <p>نمونه کار ها ما را بررسی کنید </p>
-      </div>
+           <Title title="نمونه کار"  description="نمونه کار های ما را بررسی کنید " />
 
       <div className="project-nav">
         <ul>

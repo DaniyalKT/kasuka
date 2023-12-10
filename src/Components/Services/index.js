@@ -1,13 +1,12 @@
 import React from "react";
 import "./Services.css";
+import Title from "../../shared/Title";
 
 export default function Services() {
   return (
     <div className="services-container">
-      <div className="section-title">
-        <h2>خدمات</h2>
-        <p>خدمات ما را بررسی کنید </p>
-      </div>
+      
+      <Title title="خدمات"  description="خدمات ما را بررسی کنید"/>
 
       <div className="section-services">
         <div className="service">

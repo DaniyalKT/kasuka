@@ -1,38 +1,11 @@
 import React from "react";
 import "./Contact.css";
-import GoogleMapReact from 'google-map-react';
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+import Title from "../../shared/Title";
 
 export default function Contact() {
-  // const defaultProps = {
-  //   center: {
-  //     lat: 35.7381576,
-  //     lng: 51.5065778
-  //   },
-  //   zoom: 10
-  // };
-
   return (
     <div className="contact-container">
-      <div className="contact-title">
-        <h2>تماس با ما</h2>
-        <p>با ما تماس بگیرید </p>
-      </div>
-
-      <div className="map" >
-      {/* <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-      >
-        <AnyReactComponent
-          lat={35.7381576}
-          lng={51.5065778}
-          text="My Marker"
-        />
-      </GoogleMapReact> */}
-      </div>
+      <Title title="تماس با ما" description="با ما تماس بگیرید" />
 
       <div className="contact-section">
         <div className="info-contact">
